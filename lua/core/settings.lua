@@ -39,7 +39,9 @@ settings["format_disabled_dirs"] = {
 -- Set the plugins to disable here.
 -- Example: "Some-User/A-Repo"
 ---@type string[]
-settings["disabled_plugins"] = {}
+settings["disabled_plugins"] = {
+	"akinsho/bufferline.nvim",
+}
 
 -- Set it to false if you don't use nvim to open big files.
 ---@type boolean
